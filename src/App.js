@@ -1,11 +1,17 @@
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
-}
+import './App.css';
+import HomePage from './pages/HomePage/HomePage';
+import DetailsPage from './pages/DetailsPage/DetailsPage';
+
+const App = () => (
+  <Layout>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/details/:cc" element={<DetailsPage />} />
+    </Routes>
+  </Layout>
+);
 
 export default App;
