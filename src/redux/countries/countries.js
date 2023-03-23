@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { v4 as uuidV4 } from 'uuid';
 import { countryApi, mapBaseUrl } from '../../api/api';
 import generateMap from '../../utils/utils';
