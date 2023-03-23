@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Weather Forcast App] <a name="about-project"></a>
+# 📖 [Weather Forecast App] <a name="about-project"></a>
 
 > 
 
-**[Weather Forcast App]** This is an SPA project to develop a web app with three diferent pages: the Home page, Calculator Page, Quote page which are seamlessly accessed using the React Router DOM.
+**[Weather Forecast App]** This is a react based project that enables a user to see the information about a region and the countries within the selected region. It Also gives the user the information about the weather of the selected country of interest.
 
 ## 🛠 Built With <a name="built-with">
 - HTML

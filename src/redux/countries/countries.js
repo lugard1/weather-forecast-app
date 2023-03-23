@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { v4 as uuidV4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 import { countryApi, mapBaseUrl } from '../../api/api';
 import generateMap from '../../utils/utils';
 
@@ -12,7 +12,7 @@ export const fetchCounties = createAsyncThunk(
     const countries = result.map((item) => {
       totalPopulation += item.population;
       return {
-        id: uuidV4(),
+        id: uuidv4(),
         name: item.name.common,
         capital: `${!item.capital ? 'Not specified' : item.capital[0]}`,
         population: item.population,

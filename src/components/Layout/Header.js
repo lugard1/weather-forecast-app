@@ -18,7 +18,7 @@ const Header = () => {
               {year}
             </NavLink>
           </li>
-          <li className={`${classes.nav_item} ${classes.band}`}><NavLink to="/"><h1>Weather Forcast</h1></NavLink></li>
+          <li className={`${classes.nav_item} ${classes.band}`}><NavLink to="/"><h1>Weather Forecast</h1></NavLink></li>
           <li className={`${classes.nav_item} ${classes.actions}`}>
             <button type="button">
               <TiMicrophone />
